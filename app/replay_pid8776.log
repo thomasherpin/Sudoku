@@ -1,0 +1,31 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 268 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 224949 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 3073 1 384 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 4097 1 8225 0 -1
+ciMethod java/lang/RuntimeException <init> (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethod java/util/Collection iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/List iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/ArrayList <init> ()V 1265 1 13297 0 -1
+ciMethod java/util/ArrayList ensureCapacityInternal (I)V 641 1 36168 0 576
+ciMethod java/util/ArrayList ensureExplicitCapacity (I)V 641 1 38075 0 544
+ciMethod java/util/ArrayList grow (I)V 89 1 8245 0 0
+ciMethod java/util/ArrayList hugeCapacity (I)I 0 0 1 0 -1
+ciMethod java/util/ArrayList get (I)Ljava/lang/Object; 2081 1 187985 0 -1
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 641 1 34849 0 736
+ciMethod java/util/ArrayList iterator ()Ljava/util/Iterator; 2105 1 12538 0 192
+ciMethod java/util/ArrayList access$100 (Ljava/util/ArrayList;)I 1097 1 137 0 0
+ciMethod java/util/Collections unmodifiableList (Ljava/util/List;)Ljava/util/List; 4097 1 3696 0 -1
+ciMethod java/util/Collections$UnmodifiableCollection iterator ()Ljava/util/Iterator; 4097 1 7184 0 0
+ciMethod java/lang/Math max (II)I 233 1 41736 0 -1
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 4097 1 16368 0 0
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object; 3545 1 5684 0 -1
+ciMethodData java/lang/Object <init> ()V 2 224958 orig 264 72 34 40 114 0 0 0 0 128 4 105 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 241 101 27 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/TreeMap getFirstEntry ()Ljava/util/TreeMap$Entry; 4097 1785 797 0 0
+ciMethod java/util/TreeMap successor (Ljava/util/TreeMap$Entry;)Ljava/util/TreeMap$Entry; 4097 1017 1354 0 -1
+ciMethod java/util/TreeMap access$100 (Ljava/util/TreeMap;)I 2401 1 300 0 0
+ciMethodData java/util/ArrayList add (Ljava/lang/Object;)Z 2 35816 orig 264 72 34 40 114 0 0 0 0 88 218 117 20 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 0 0 0 193 92 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 7 0 0 0 0 0 data 8 0x70002 0x8b9e 0x1a0104 0x0 0x17144a40 0x302 0x17144af0 0x10 oops 2
